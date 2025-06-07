@@ -7,7 +7,7 @@
 [app]
 
 # (str) Title of your application
-title = khaledafra
+title = khaled
 
 # (str) Package name
 package.name = khaled
