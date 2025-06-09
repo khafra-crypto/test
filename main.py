@@ -18,7 +18,7 @@ class FirstScreen(MDScreen):
 
         self.add_widget(
             MDRaisedButton(
-                text=reshaped_text,
+                text=bidi_text,
                 pos_hint={"center_x": 0.5, "center_y": 0.5},
                 on_release=self.go_to_second,
                 font_name="Amiri-Regular.ttf"  # تأكد أن الخط موجود في مجلد المشروع
