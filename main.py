@@ -14,7 +14,7 @@ class FirstScreen(MDScreen):
 
         text = "خالد"
         reshaped_text = arabic_reshaper.reshape(text)
-        #bidi_text = get_display(reshaped_text)
+        bidi_text = get_display(reshaped_text)
 
         self.add_widget(
             MDRaisedButton(
