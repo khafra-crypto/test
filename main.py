@@ -5,8 +5,6 @@ from kivymd.uix.button import MDRaisedButton
 from kivymd.uix.label import MDLabel
 import arabic_reshaper
 from bidi.algorithm import get_display
-from bidi import algorithm
-algorithm.use_c_extension = False
 
 class FirstScreen(MDScreen):
     def __init__(self, **kwargs):
